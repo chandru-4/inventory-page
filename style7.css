@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar .nav-link {
+    color: #333;
+    font-size: 1rem;
+}
+
+.sidebar .nav-link.active {
+    font-weight: bold;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.table .text-success {
+    color: green;
+}
+
+.table .text-danger {
+    color: red;
+}
+
+.card-header h4 {
+    margin-bottom: 0;
+}
+
+.card-header p {
+    margin-bottom: 0.5rem;
+}
+.medicine{
+    margin-left: 500px;
+}

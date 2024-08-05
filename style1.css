@@ -1,0 +1,85 @@
+
+.one{
+    background-color: white !important;
+    border-color: #0089FF !important;
+    color: #0089FF !important;
+    width: 116px !important;
+    height: 48px !important;
+    border-radius: 10px !important;
+    
+}
+.two{
+    width: 800px;
+    height: 600px;
+    margin-top: 28px;
+    margin-right: 40px;
+}
+.head{
+    color:#171A1F;
+    text-align: center;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 54px;
+}
+.three{
+    text-align: center;
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #565E6C;
+}
+.four{
+    text-align: center;
+    color: #0D263C;
+    font-size: 22px;
+    font-weight: 700;
+    height: 34px;
+}
+.otp-input{
+    text-align: center;
+    
+    width: 56px;
+    height: 63px;
+    margin-left: 25px;
+    border-radius: 10px;
+    font-size: 35px;
+    border: rgb(233, 230, 230) 1px solid;
+   
+}
+.five{
+    text-align: center !important;
+    border-radius: 32px !important;
+    height: 61px !important;
+    font-size: 22px !important;
+    width: 180px !important;
+    margin-top: 30px !important;
+    margin-bottom: 25px;
+    background-color: #0089FF;
+    color: #FFFFFF;
+    border: #0089FF;
+    
+}
+
+h6{
+    text-align: center;
+    color: #0089FF !important;
+    font-size: 18px;
+    height: 26px;
+    
+    
+}
+.six{
+    text-align: center;
+    font-size: 18px;
+    color: #566F92;
+    height: 28px;
+}
+.container{
+    text-align: center;
+}
+.underline {
+    border-bottom: 2px solid #0089FF;
+    display: inline-block;
+  
+}

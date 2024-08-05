@@ -1,0 +1,172 @@
+body {
+    background-color: #f5f5f5;
+}
+.sidebar {
+    height: 100vh;
+    background-color: #fff;
+    border-right:  1px solid #ddd;
+    position: fixed  !important;
+}
+.sidebar a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+}
+.sidebar a:hover {
+    background-color: #f1f1f1;
+    text-decoration: none;
+}
+.menu-item{
+    margin-left: 15px;
+}
+.content {
+    padding: 20px;
+}
+.inventory-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.inventory-stats div {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+}
+.medicine-list {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.one{
+    margin-top: 5px;
+    width: 160px;
+    height: 60px;
+    size: 12px;
+    margin-left: -10px;
+}
+.two{
+    font-size: 14px;
+    color: #0089FF !important;
+}
+.yyy{
+    font-size: 14px;
+}
+.four{
+    font-size: 24px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    color: #000000;
+    font-family: 'Roboto'; font-weight: bold;
+}
+.five{
+    margin-left: 25px;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.six{
+    margin-left: 35px;
+    font-family: 'Poppins';
+    font-size: 14px;
+   
+}
+.seven{
+    margin-left: 45px;
+    font-family: 'Poppins';
+    font-size: 14px;
+   
+    
+}
+.five:hover{
+    background-color: #0089FF;
+    color: white;
+    
+}
+.nine{
+    background-color: floralwhite;
+}
+
+
+.card-custom {
+    display: flex;
+    margin-left: 15px;
+}
+.medicine-list{
+    margin-top: 10px;
+}
+.ttt{
+    width: 70px;
+    height: 70px;    
+}
+.upload-btn {
+background-color: #0089FF;
+font-size: 14px;
+color: white;
+}
+.tooo{
+    margin-left: 30px;
+        
+}
+.tyyy{
+    margin-left: 30px;
+    border-bottom-color: #0089FF;
+    margin-top: 20px;
+    width: 189px;
+    height: 44px;
+    border-color: #0089FF ;
+    color: white;
+    background-color:#0089FF;
+    font-size: 14px;
+    border-radius: 43px;
+    font-family: 'Roboto'sans-serif;
+}
+.medicine{
+    padding-bottom: 50px ;
+    margin-top: -100px;
+    margin-right: 50px;
+}
+.orange-img{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+}
+.onetwo{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+}
+.stock{
+    padding-bottom: 40px ;
+    margin-top: -100px;
+    margin-left: 50px;
+}
+.twothree{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+}
+.stock-medicine{
+    margin-top: -100px;
+    margin-left: 60px; 
+}
+.mb-3{
+    margin-top: 10px;
+}
+.Foders{
+    margin-top: 5px;
+    margin-left: 15px;
+    border: hidden;  
+}
+.Transactions{
+    margin-top: 5px;
+    margin-left: 15px;
+    border: hidden;  
+}

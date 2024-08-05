@@ -1,0 +1,106 @@
+.one{
+    font-size: 24px;
+    width: 153px;
+    height: 29px;
+    font-weight: 700;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.two{
+    font-family: 'Poppins';
+    font-size: 30px;
+    width: 305px;
+    height: 53px;
+
+}
+.order-details {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .order-header h2 {
+    margin: 0;
+  }
+  .order-header .badge {
+    font-size: 1rem;
+  }
+  .order-info {
+    margin: 20px 0;
+  }
+  .order-info div {
+    margin-bottom: 10px;
+  }
+  .table th{
+    font-family: 'Inter' !important;
+    color: #B5B5C3;
+    font-size: 15px;
+    height: 15px;
+   
+  }
+ 
+  .table td {
+    vertical-align: middle;
+   font-family: 'Roboto';
+   font-size: 16px;
+  }
+  
+  .three{
+    color:#FFC33D;
+  }
+.badge 
+{
+    color:#FFC33D;
+    background-color: #FFC33D1A;
+    border-radius: 5px;
+    margin-right: 360px;
+    font-size: 24px;
+    
+}
+.four{
+    color: #B5B5C3;
+    font-size: 16.69px;
+}
+.five{
+    font-family: 'Inter';
+    font-size: 17.97px;
+}
+.six{
+    font-size: 15.97px;
+    font-family: 'Inter' !important;
+    width: 550px;
+}
+.upload-btn {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 5px 5px;
+    width: 150px !important;
+    height: 34px !important;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Inter' !important;
+    border-radius: 10px !important;
+    /* cursor: pointer; */
+    border: 2px solid #007bff !important;
+}
+.seven{
+    margin-left: 570px;
+    border-radius: 50px;
+    width: 183px;
+    padding: 15px, 29px, 15px, 29px;
+    background-color: #007bff;
+    color: #FFFFFF;
+    height: 45px;
+    border-color: #007bff !important;
+
+
+}

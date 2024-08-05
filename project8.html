@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .tab-content {
+            padding-top: 20px;
+        }
+        .card-header {
+            background-color: #f8f9fa;
+        }
+        .status-in-stock {
+            color: green;
+        }
+        .status-out-of-stock {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Inventory</h2>
+        <ul class="nav ">
+            <li class="nav-item">
+                <a class="" href="" data-toggle="tab">Med stocks</a>
+            </li>
+            <li class="">
+                <a class="" href="#orders" >Orders</a>
+            </li>
+            <li class="nav-item">
+                <a class="" href="" >Transactions</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div id="med-stocks" class="tab-pane active">
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Orders</h5>
+                            </div>
+                            <div class="card-body">
+                                <h2>2</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">In Stock Medicine</h5>
+                            </div>
+                            <div class="card-body">
+                                <h2>300</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Out of Stock Medicine</h5>
+                            </div>
+                            <div class="card-body">
+                                <h2>5</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <h5>Medicine List</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Medicine Name</th>
+                                <th>HSN code</th>
+                                <th>Stock Status</th>
+                                <th>Quantity</th>
+                                <th>Expiry date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Medicine Name</td>
+                                <td>516519515</td>
+                                <td class="status-in-stock">In Stock</td>
+                                <td>14</td>
+                                <td>14 JAN 2026</td>
+                            </tr>
+                            <tr>
+                                <td>Medicine Name</td>
+                                <td>541891528</td>
+                                <td class="status-in-stock">In Stock</td>
+                                <td>14</td>
+                                <td>14 JAN 2026</td>
+                            </tr>
+                            <tr>
+                                <td>Medicine Name</td>
+                                <td>541891528</td>
+                                <td class="status-in-stock">In Stock</td>
+                                <td>14</td>
+                                <td>14 JAN 2026</td>
+                            </tr>
+                            <tr>
+                                <td>Medicine Name</td>
+                                <td>541891528</td>
+                                <td class="status-in-stock">In Stock</td>
+                                <td>14</td>
+                                <td>14 JAN 2026</td>
+                            </tr>
+                            <tr>
+                                <td>Medicine Name</td>
+                                <td>541891528</td>
+                                <td class="status-out-of-stock">Out Of Stock</td>
+                                <td>0</td>
+                                <td>14 JAN 2026</td>
+                            </tr>
+                            <tr>
+                                <td>Medicine Name</td>
+                                <td>541891528</td>
+                                <td class="status-out-of-stock">Out Of Stock</td>
+                                <td>0</td>
+                                <td>14 JAN 2026</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button class="btn btn-primary">Update Stock</button>
+                </div>
+            </div>
+            <div id="orders" class="tab-pane fade">
+                <!-- Orders content -->
+            </div>
+            <div id="transactions" class="tab-pane fade">
+                <!-- Transactions content -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
